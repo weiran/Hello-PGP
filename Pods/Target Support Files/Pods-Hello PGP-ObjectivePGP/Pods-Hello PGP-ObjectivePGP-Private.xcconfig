@@ -1,0 +1,6 @@
+#include "Pods-Hello PGP-ObjectivePGP.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/ObjectivePGP" "${PODS_ROOT}/Headers/Build/ObjectivePGP/ObjectivePGP" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ObjectivePGP" "${PODS_ROOT}/Headers/Public/ObjectivePGP/ObjectivePGP"
+LIBRARY_SEARCH_PATHS = ${PODS_HELLO_PGP_OBJECTIVEPGP_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = ${PODS_HELLO_PGP_OBJECTIVEPGP_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

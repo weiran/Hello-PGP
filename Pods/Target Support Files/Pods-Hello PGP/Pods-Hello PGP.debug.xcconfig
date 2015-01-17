@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ObjectivePGP" "${PODS_ROOT}/Headers/Public/ObjectivePGP/ObjectivePGP"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/ObjectivePGP/lib-osx"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ObjectivePGP" -isystem "${PODS_ROOT}/Headers/Public/ObjectivePGP/ObjectivePGP"
+OTHER_LDFLAGS = -ObjC -l"ObjectivePGP" -l"Pods-Hello PGP-ObjectivePGP" -l"bz2" -l"z"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,10 @@
+PODS:
+  - ObjectivePGP (0.3.2)
+
+DEPENDENCIES:
+  - ObjectivePGP
+
+SPEC CHECKSUMS:
+  ObjectivePGP: 9e34e22967cc75f03f967b3c7592e3edb2e54a8e
+
+COCOAPODS: 0.35.0
